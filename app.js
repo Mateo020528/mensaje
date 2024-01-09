@@ -3,7 +3,7 @@ let option = prompt('hola mi amor, por favor ingresa una de las opciones para co
 'a) En que casa Estoy y que paso..?\n'+
 'b) Quieres saber cuando me empesaste a gustar??\n'+
 'c) Otro...\n'+
-'x) salir');
+'x) salir' );
 //Empezamos la logica de nuestro menu de opciones
 if (option === ('a')){
     let h1 = document.createElement('h1');
@@ -29,7 +29,7 @@ if (option === ('a')){
     let p = document.createElement('p');
     let h1Texto=document.createTextNode('Mi amor Bienvenida a la opcion C');
 
-    let ptexto = document.createTextNode('Mi amor para mi estos 11 meses casi, han sido de los mas bonitos de mi vida y no me arrepiento de cada experincia que e vivido contigo, todo a sido genial a mi parecer y me encantaria que siguera asi, me encanta esta relacion que tenemos, estoy super orgulloso de los que hemos hecho como pareja, la confianza que tenemos en el uno del otro y todo lo que esto a construido. me encanta los sueños que tenemos y los que compartimos, eres un niña maravillosa y llegaras super lejos como tu primo estoy convencido que seras la mejor ingeniera aeroEspacial del mundo y como tu super novio dejame decirte que me encanta ser parte de este crecimiento que estas teniendo. con mucho amor Tu novio y compañero de vida Mateo Velez Toro')
+    let ptexto = document.createTextNode('Mi amor para mi estos 11 meses casi, han sido de los mas bonitos de mi vida y no me arrepiento de cada experincia que e vivido contigo, todo a sido genial a mi parecer y me encantaria que siguera asi, me encanta esta relacion que tenemos, estoy super orgulloso de los que hemos hecho como pareja, la confianza que tenemos en el uno del otro y todo lo que esto a construido. me encanta los sueños que tenemos y los que compartimos, eres un niña maravillosa y llegaras super lejos y estoy convencido que seras la mejor ingeniera aeroEspacial del mundo y como tu super novio dejame decirte que me encanta ser parte de este crecimiento que estas teniendo. con mucho amor Tu novio y compañero de vida Mateo Velez Toro')
     h1.appendChild(h1Texto);
     document.body.appendChild(h1);
     p.appendChild(ptexto);
